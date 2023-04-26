@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Predictions</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="css/admin/feather.css">
+    <link rel="stylesheet" href="css/admin/fantasyteam.css">
+    <link rel="stylesheet" href="css/admin/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="css/admin/themify-icons.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/admin/style.css">
+    <link rel="stylesheet" href="css/admin/admin.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 fixed-top d-flex flex-row" style="background-color: #fff;">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.png" class="mr-2"
+                        alt="logo" /><span class="back_logo_text">is a
+                        platform completely for free</span></a>
+                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                <button class="navbar-toggler navbar-toggler align-self-center d-none d-sm-block d-md-block d-lg-none"
+                    type="button" data-toggle="minimize">
+                    <span class="icon-menu"><i class="fa fa-bars"></i></span>
+                </button>
+
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#"
+                            data-toggle="dropdown">
+                            <span class="">EN &nbsp;<img src="images/down_arrow.png" alt="" width="15px"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list bg-color"
+                            aria-labelledby="notificationDropdown">
+                            <ul class="lang-list">
+                                <li>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-profile dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                            <img src="images/user.png" alt="profile" />
+                        </a>
+                        <div class="welcome_user dropdown-toggle d-none d-lg-block" data-toggle="dropdown"
+                            id="profileDropdown">
+                            <p class="welxome_text">Welcome</p>
+                            <p class="admin_text">Administrator <span class="user-count">0</span></p>
+                        </div>
+                        <img src="images/down_arrow.png" alt="" width="15px"
+                            class="arrow_profile dropdown-toggle d-none d-lg-block" data-toggle="dropdown"
+                            id="profileDropdown">
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown bg-color profile-list"
+                            aria-labelledby="profileDropdown">
+                            <ul class="lang-list">
+                                <li>
+                                    <a class="dropdown-item preview-item" href="">Manage</a>
+                                    <a class="dropdown-item preview-item" href="">Fantasy Team</a>
+                                    <a class="dropdown-item preview-item" href="">Profile</a>
+                                    <a class="dropdown-item preview-item" href="">Home</a>
+                                    <a class="dropdown-item preview-item" href="">My Predictions</a>
+                                    <a class="dropdown-item preview-item" href="">My Groups</a>
+                                    <a class="dropdown-item preview-item" href="">News</a>
+                                    <a class="dropdown-item preview-item" href="">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item nav-settings d-none d-lg-flex">
+            <a class="nav-link" href="#">
+              <i class="icon-ellipsis"></i>
+            </a>
+          </li> -->
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                    data-toggle="offcanvas">
+                    <span class="icon-menu"><i class="fa fa-bars"></i></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial -->
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item gap_up">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/home2.png" class="dash-side-img">
+                            <span class="menu-title">Home</span>
+                        </a> 
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/my-predictions-white.png" class="dash-side-img">
+                            <span class="menu-title">My Predictions</span>
+                            <img src="images/next.svg" class="arrow_right">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/grp2.png" class="dash-side-img">
+                            <span class="menu-title">My Groups</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/game2.png" class="dash-side-img">
+                            <span class="menu-title">Fantasy Teams</span>
+                        </a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/book2.png" class="dash-side-img">
+                            <span class="menu-title">News</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/info2.png" class="dash-side-img">
+                            <span class="menu-title">How to Play</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="page_title">
+                        <div class="ft_title">
+                            <h4>My Predictions</h4>
+                        </div>
+                        <div class="ft_btn">
+                            <button type="button" class="btn">Go to Dashboard</button>
+                        </div>
+                    </div>
+                    <div class="my-prediction_main">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 px-1 py-1">
+                                <div class="bolopik_cards prediction_cards">
+                                   <div class="first_prediction d-flex justify-content-between align-items-start">
+                                    <div class="img_team">
+                                        <img src="images/game-1.png" alt="">
+                                        <p>R Madrid</p>
+                                      </div>
+                                      <div class="img_team_2">
+                                        <img src="images/laliga.png" alt="">
+                                        <p>LaLiga</p>
+                                        <div class="game_time blue">
+                                            <p>Sat, Jan 29, 2022</p>
+                                            <p>23:52:00</p>
+                                            <button class="btn btn-primary">Coming</button>
+                                        </div>
+                                      </div>
+                                      <div class="img_team">
+                                        <img src="images/game-2.png" alt="">
+                                        <p>Barcelona</p>
+                                      </div>
+                                   </div>
+                                   <div class="edit_prediction d-flex justify-content-between">
+                                      <div class="box_prediction">
+                                        <div>
+                                        <p>Score</p>
+                                        <p>0</p>
+                                        </div>
+                                        <div>
+                                        <p style="border-right: 1px solid #ddd;">Predicted</p>
+                                        <p style="border-right: 1px solid #ddd;">0</p>
+                                        </div>
+                                      </div>
+                                      <div class="content_predivtion">
+                                         <button class="btn btn-primary">Edit Prediction</button>
+                                         <p>Predicted Team to Score-First: R Madrid</p>
+                                         <p>Actual Team to Score First : -</p>
+                                      </div>
+                                      <div class="box_prediction">
+                                        <div>
+                                        <p>Score</p>
+                                        <p>0</p>
+                                        </div>
+                                        <div>
+                                        <p style="border-right: 1px solid #ddd;">Predicted</p>
+                                        <p style="border-right: 1px solid #ddd;">3</p>
+                                        </div>
+                                      </div>
+                                   </div>
+                                   <div class="last_sec_prediction">
+                                      <p>Add Predictions to your groups</p>
+                                      <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">botherood</label>
+                                      </div>
+                                      <div class="game_time blue">
+                                        <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Submit to Groups</button>
+                                      </div>
+                                   </div>
+                                 </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 px-1 py-1">
+                                <div class="bolopik_cards prediction_cards">
+                                   <div class="first_prediction d-flex justify-content-between align-items-start">
+                                    <div class="img_team">
+                                        <img src="images/spain.png" alt="">
+                                        <p>Spain</p>
+                                      </div>
+                                      <div class="img_team_2">
+                                        <img src="images/laliga.png" alt="">
+                                        <p>LaLiga</p>
+                                      </div>
+                                      <div class="img_team">
+                                        <img src="images/Germany.png" alt="">
+                                        <p>Germany</p>
+                                      </div>
+                                   </div>
+                                   <div class="edit_prediction d-flex justify-content-between mt-3">
+                                    <div class="box_prediction">
+                                      <div>
+                                      <p>Score</p>
+                                      <p>0</p>
+                                      </div>
+                                      <div>
+                                      <p style="border-right: 1px solid #ddd;">Predicted</p>
+                                      <p style="border-right: 1px solid #ddd;">0</p>
+                                      </div>
+                                    </div>
+                                    <div class="game_time text-center">
+                                        <p>Sat, Jan 29, 2022</p>
+                                        <p>1:00 PM</p>
+                                        <p class="mt-2">18:30:00</p>
+                                        <button class="btn btn-primary">Past Game</button>
+                                    </div>
+                                    <div class="box_prediction">
+                                      <div>
+                                      <p>Score</p>
+                                      <p>0</p>
+                                      </div>
+                                      <div>
+                                      <p style="border-right: 1px solid #ddd;">Predicted</p>
+                                      <p style="border-right: 1px solid #ddd;">3</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                 </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 px-1 py-1">
+                                <div class="bolopik_cards prediction_cards">
+                                   <div class="first_prediction d-flex justify-content-between align-items-start">
+                                    <div class="img_team">
+                                        <img src="images/game-2.png" alt="">
+                                        <p>Barcelona</p>
+                                      </div>
+                                      <div class="img_team_2">
+                                        <img src="images/laliga.png" alt="">
+                                        <p>LaLiga</p>
+                                      </div>
+                                      <div class="img_team">
+                                        <img src="images/game-1.png" alt="">
+                                        <p>R Madrid</p>
+                                      </div>
+                                   </div>
+                                   <div class="edit_prediction d-flex justify-content-between mt-3">
+                                    <div class="box_prediction">
+                                      <div>
+                                      <p>Score</p>
+                                      <p>0</p>
+                                      </div>
+                                      <div>
+                                      <p style="border-right: 1px solid #ddd;">Predicted</p>
+                                      <p style="border-right: 1px solid #ddd;">0</p>
+                                      </div>
+                                    </div>
+                                    <div class="game_time text-center">
+                                        <p>Sat, Jan 29, 2022</p>
+                                        <p>1:00 PM</p>
+                                        <p class="mt-2">18:30:00</p>
+                                        <button class="btn btn-primary">Past Game</button>
+                                    </div>
+                                    <div class="box_prediction">
+                                      <div>
+                                      <p>Score</p>
+                                      <p>0</p>
+                                      </div>
+                                      <div>
+                                      <p style="border-right: 1px solid #ddd;">Predicted</p>
+                                      <p style="border-right: 1px solid #ddd;">3</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                 </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 px-1 py-1">
+                                <div class="bolopik_cards prediction_cards">
+                                   <div class="first_prediction d-flex justify-content-between align-items-start">
+                                    <div class="img_team">
+                                        <img src="images/Germany.png" alt="">
+                                        <p>Germany</p>
+                                      </div>
+                                      <div class="img_team_2">
+                                        <img src="images/laliga.png" alt="">
+                                        <p>LaLiga</p>
+                                      </div>
+                                      <div class="img_team">
+                                        <img src="images/spain.png" alt="">
+                                        <p>Spain</p>
+                                      </div>                        
+                                   </div>
+                                   <div class="edit_prediction d-flex justify-content-between mt-3">
+                                    <div class="box_prediction">
+                                      <div>
+                                      <p>Score</p>
+                                      <p>0</p>
+                                      </div>
+                                      <div>
+                                      <p style="border-right: 1px solid #ddd;">Predicted</p>
+                                      <p style="border-right: 1px solid #ddd;">0</p>
+                                      </div>
+                                    </div>
+                                    <div class="game_time text-center">
+                                        <p>Sat, Jan 29, 2022</p>
+                                        <p>1:00 PM</p>
+                                        <p class="mt-2">18:30:00</p>
+                                        <button class="btn btn-primary">Past Game</button>
+                                    </div>
+                                    <div class="box_prediction">
+                                      <div>
+                                      <p>Score</p>
+                                      <p>0</p>
+                                      </div>
+                                      <div>
+                                      <p style="border-right: 1px solid #ddd;">Predicted</p>
+                                      <p style="border-right: 1px solid #ddd;">3</p>
+                                      </div>
+                                    </div>
+                                 </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                  <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+              <div class="select_team">
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="modal-title" id="exampleModalLabel">Select Team to Score First</h5>
+                            <div class="popup_team_select">
+                                <div class="teams_flex d-flex align-items-center justify-content-between">
+                                  <div class="img_team one">
+                                    <img src="images/game-1.png" alt="">
+                                    <p>R Madrid</p>
+                                  </div>
+                                  <div class="img_team_2">
+                                    <img src="images/laliga.png" alt="">
+                                    <p>LaLiga</p>
+                                  </div>
+                                  <div class="img_team">
+                                    <img src="images/game-2.png" alt="">
+                                    <p>Barcelona</p>
+                                  </div>
+                                </div>
+                                <div class="game_info_flex d-flex align-items-center justify-content-around">
+                                  <div class="info_game">
+                                    <div class="game_no">
+                                      <input type="text" class="class="form-control placeholder="">
+                                    </div>
+                                  </div>
+                                  <div class="game_time">
+                                    <p>Sat, Jan 29, 2022</p>
+                                    <p>1:00 PM</p>
+                                    <button class="btn btn-primary">Past Game</button>
+                                  </div>
+                                  <div class="info_game">
+                                    <div class="game_no">
+                                      <input type="text" class="class="form-control placeholder="">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="game_time blue">
+                                      <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select Team</option>
+                                        <option value="1">R Madrid</option>
+                                        <option value="2">Barcelona</option>
+                                        <option value="3">Spain</option>
+                                      </select>
+                                        <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Save Prediction</button>
+                                      </div>
+                                </div>
+                             </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+<style>
+  .game_time.blue .form-select {
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    padding: 0.5rem 1.1rem;
+    color: #787878;
+}
+  .game_no input {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #D2D2D2;
+    padding: 0.7rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 2rem;
+    color: #003969;
+    font-weight: 600;
+    text-align: center;
+}
+/* edit */
+.select_team .game_info_flex div {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.game_no {
+    border: none;
+    padding: 0.7rem 1rem 0.5rem 1rem;
+    border-radius: 0px;
+}
+/* edit end */
+
+.my-prediction_main .bolopik_cards {
+    height: 100%;
+}
+@media (max-width:991px) {
+  .select_team .game_time {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.select_team .game_time.blue button.btn.btn-primary {
+    background-color: #003969;
+    border-color: #003969;
+    border-radius: 4px;
+    padding: 10px 1.5rem;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+}
+</style>
+    <!-- plugins:js -->
+    <script src="js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/settings.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <!-- <script src="js/dashboard.js"></script> -->
+    <script src="js/Chart.roundedBarCharts.js"></script>
+    <!-- End custom js for this page-->
+</body>
+
+</html>

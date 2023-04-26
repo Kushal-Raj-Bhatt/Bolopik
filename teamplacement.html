@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Fantasy Team</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="css/admin/feather.css">
+    <link rel="stylesheet" href="css/admin/fantasyteam.css"> 
+    <link rel="stylesheet" href="css/admin/teamplacement.css"> 
+    <link rel="stylesheet" href="css/admin/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="css/admin/themify-icons.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/admin/style.css">
+    <link rel="stylesheet" href="css/admin/admin.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 fixed-top d-flex flex-row" style="background-color: #fff;">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.png" class="mr-2"
+                        alt="logo" /><span class="back_logo_text">is a
+                        platform completely for free</span></a>
+                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                <button class="navbar-toggler navbar-toggler align-self-center d-none d-sm-block d-md-block d-lg-none"
+                    type="button" data-toggle="minimize">
+                    <span class="icon-menu"><i class="fa fa-bars"></i></span>
+                </button>
+
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#"
+                            data-toggle="dropdown">
+                            <span class="">EN &nbsp;<img src="images/down_arrow.png" alt="" width="15px"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list bg-color"
+                            aria-labelledby="notificationDropdown">
+                            <ul class="lang-list">
+                                <li>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-profile dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                            <img src="images/user.png" alt="profile" />
+                        </a>
+                        <div class="welcome_user dropdown-toggle d-none d-lg-block" data-toggle="dropdown"
+                            id="profileDropdown">
+                            <p class="welxome_text">Welcome</p>
+                            <p class="admin_text">Administrator <span class="user-count">0</span></p>
+                        </div>
+                        <img src="images/down_arrow.png" alt="" width="15px"
+                            class="arrow_profile dropdown-toggle d-none d-lg-block" data-toggle="dropdown"
+                            id="profileDropdown">
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown bg-color profile-list"
+                            aria-labelledby="profileDropdown">
+                            <ul class="lang-list">
+                                <li>
+                                    <a class="dropdown-item preview-item" href="">Manage</a>
+                                    <a class="dropdown-item preview-item" href="">Fantasy Team</a>
+                                    <a class="dropdown-item preview-item" href="">Profile</a>
+                                    <a class="dropdown-item preview-item" href="">Home</a>
+                                    <a class="dropdown-item preview-item" href="">My Predictions</a>
+                                    <a class="dropdown-item preview-item" href="">My Groups</a>
+                                    <a class="dropdown-item preview-item" href="">News</a>
+                                    <a class="dropdown-item preview-item" href="">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item nav-settings d-none d-lg-flex">
+            <a class="nav-link" href="#">
+              <i class="icon-ellipsis"></i>
+            </a>
+          </li> -->
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                    data-toggle="offcanvas">
+                    <span class="icon-menu"><i class="fa fa-bars"></i></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial -->
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item gap_up">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/home2.png" class="dash-side-img">
+                            <span class="menu-title">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/pre2.png" class="dash-side-img">
+                            <span class="menu-title">My Predictions</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/grp2.png" class="dash-side-img">
+                            <span class="menu-title">My Groups</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="fantasyteam.html">
+                            <img src="images/basketball-svgrepo-com.svg" class="dash-side-img">
+                            <span class="menu-title">Fantasy Teams</span>
+                            <img src="images/next.svg" class="arrow_right">
+                        </a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">
+                            <img src="images/book2.png" class="dash-side-img">
+                            <span class="menu-title">News</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="howtoplay.html">
+                            <img src="images/info2.png" class="dash-side-img">
+                            <span class="menu-title">How to Play</span>
+                        </a>
+
+                    </li>
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="page_title">
+                        <div class="ft_title">
+                            <h4>My Fantasy Team</h4>
+                        </div>
+                        <div class="ft_btn">
+                            <button type="button" class="btn">Go to Dashboard</button>
+                        </div>
+                    </div>
+                    <div class="main_card mt-3">
+                        <div class="team_place"> 
+                            <div class="header_top">
+                                <h5>Soccer Tournament Jul 2022</h5>
+                                <p><span>Type: </span> Soccer</p>
+                                <p><span>Tactic: </span> 5-4-1</p>
+                            </div>  
+                        </div>
+                        <div class="placement">
+                            <div class="player_div">
+                                <h5>Gaolkeepers</h5>
+                                <div class="row g-4">
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Goalkeeper 1</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Sports</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Goalkeeper 2</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="player_div pt-5">
+                                <h5>Defenders</h5>
+                                <div class="row gy-4">
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Defender 1</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Defender 2</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Defender 3</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Defender 4</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Defender 5</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                 
+                            </div>
+                            <div class="player_div pt-5">
+                                <h5>Midfielders</h5>
+                                <div class="row gy-4">
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Midfield 1</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Midfield 2</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Midfield 3</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Midfield 4</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Midfield 5</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                 
+                            </div>
+                            <div class="player_div pt-5">
+                                <h5>Forwards</h5>
+                                <div class="row gy-4">
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Forward 1</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Forward 2</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Forward 3</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Forward 4</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <label for="Sports" class="form-label"  style="color: #ABABAB;">Forward 5</label>
+                                        <select id="inputState" class="form-select ">
+                                          <option selected>Choose Player</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                 
+                            </div>
+                            <div class="note_div pt-5">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5>Important Note</h5>
+                                        <p>Remember to review your squad before saving. Once you save, you will not be able to change the players for free. A charge would be applied for such changes</p>
+                                        <p>Please add player such that their rating won't exceed number 100.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="squad pt-5">
+                                <div class="squad_btn">
+                                    <button type="submit" class="btn">Save Squad</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button trigger modal -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+
+    <!-- plugins:js -->
+    <script src="js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/settings.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <!-- <script src="js/dashboard.js"></script> -->
+    <script src="js/Chart.roundedBarCharts.js"></script>
+    <!-- End custom js for this page-->
+</body>
+
+</html>

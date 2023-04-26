@@ -1,0 +1,159 @@
+.cards_title h5{
+    font-size: 1rem;
+    color: #003969;
+    font-weight: 500;
+    text-align: center;
+    opacity: 100;
+}
+.cards_title h3{
+    font-size: 1.5rem;
+    color: #003969;
+    font-weight: 600;
+    text-align: center;
+    opacity: 100;
+}
+.bolopik_cards {
+    position: relative;
+}
+.sports-name-text {
+    color: #ababab;
+    padding-right: 5px;
+}
+.point_div{
+    padding-left: 65px;
+}
+  .sports-name {
+    font-weight: 600;
+    font-size: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .points-text {
+    color: #ababab;
+    padding-right: 5px;
+  }
+  
+  .points {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .cards_heading h3{
+    font-weight: 600 !important;
+    opacity: 100;
+  }
+  .hr_border{
+    padding-left: 66px;
+  }
+  .hr_border hr{
+    width: 75%;
+  }
+  .btn_div .edit_btn{
+    background-color: #003969;
+    color: #ffffff;
+    width: 5rem;
+  }
+  .btn_div .manage_btn{
+    background-color: #003969;
+    color: #ffffff;
+  }
+  .btn_div .delete_btn{
+    background-color: #DC3545;
+    color: #ffffff;
+    width: 5rem;
+  }
+  .btn_div {
+    position: absolute;
+    bottom: -34px;
+    left: 15%;
+}
+.d-grid {
+  display: grid!important;
+}
+  @media (max-width: 450px) {
+    .fantasy_cards .bolopik_cards {
+          position: relative;
+          padding: 2rem 1rem !important;
+      }
+      .btn_div {
+        position: absolute;
+        bottom: -34px;
+        left: 7%;
+    }
+    .btn_div .d-grid {
+      display: inherit !important;
+    }
+    .hr_border{
+        padding-left: 17%;
+      }
+      .hr_border hr{
+        width: 80%;
+      }
+      .btn_div .delete_btn{
+        background-color: #DC3545;
+        color: #ffffff;
+        width: 4rem;
+      }
+      .btn_div .edit_btn{
+        background-color: #003969;
+        color: #ffffff;
+        width: 4rem;
+      }
+       
+ }
+  @media (min-width: 768px) {
+    .bolopik_cards {
+        position: relative;
+    }
+    .hr_border{
+        padding-left: 35%;
+      }
+      .hr_border hr{
+        width: 50%;
+      }
+      .btn_div {
+        position: absolute;
+        bottom: -34px;
+        left: 30%;
+    }
+  }
+  @media (min-width: 991px) {
+    .fantasy_cards .bolopik_cards {
+        position: relative;
+        padding: 2rem 1rem !important;
+    }
+    .btn_div {
+      position: absolute;
+      bottom: -34px;
+      left: 4%;
+  }
+  .btn_div .d-grid {
+      display: inherit !important;
+  }
+    /* .hr_border{
+        padding-left: 190px;
+      }
+      .hr_border hr{
+        width: 54%;
+      } */
+  }
+  @media (min-width: 1200px) {
+    .fantasy_cards .bolopik_cards {
+      position: relative;
+      padding: 2rem 1rem !important;
+  }
+  .btn_div {
+    position: absolute;
+    bottom: -34px;
+    left: 15%;
+}
+.btn_div .d-grid {
+    display: inherit !important;
+}
+    .hr_border{
+        padding-left: 28%;
+      }
+      .hr_border hr{
+        width: 60%;
+      }
+  } 
+  

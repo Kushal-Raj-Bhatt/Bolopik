@@ -1,0 +1,206 @@
+.welcome_div{
+    padding-top: 50px;
+}
+.title_set h3 {
+    font-size: 2.625rem;
+    color: #262626;
+    margin-bottom: 2rem;
+}
+.welcome_header {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 15px;
+}
+.title_div img {
+    width: 100%;
+}
+.welcome_header h3{
+    font-size: 2rem;
+    color: #003969;
+}
+.vision_text {
+    color: #686868;
+    font-size: 1.25rem;
+    margin-top: -15px;
+  }
+  
+.vision_pra {
+    color: #686868;
+    font-size: 0.875rem;
+    margin-top: -12px;
+}
+.make_div {
+    padding-top: 30px;
+    position: relative;
+    background-image: url(../../images/10@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.make_title{
+    text-align: center;
+}
+.make_title h3{
+    color: #003969;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.make_div img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -65px;
+    left: 35%;
+}
+.make_card {
+    padding-top: 75px;
+    margin-right: -100px;
+}
+.make_card .card{
+    box-shadow: 0px 3px 6px #0039693B;
+}
+.make_div .card-body .card-text { 
+    color: #686868;
+    font-size: 1.125rem; 
+    text-align: center;
+}
+.make_div .card-body {
+    flex: 1 1 auto;
+    padding: 4rem 1rem !important;
+    height: 11rem;
+}
+.get_points{
+    padding-top: 50px;
+ 
+}
+.get_points img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+.points_title h3{
+    color: #003969;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: -9rem;
+}
+.points_title p li {
+    font-size: 1rem;
+}
+.points_title h5{
+    color: #003969;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.points_title ol, ul {
+    padding-left: 1rem;
+    margin-right: -150px;
+}
+::marker {
+    color: #003969 !important;
+    font-weight: 600;
+}
+.sign_text{
+    color: #003969;
+    font-weight: 600;
+}
+.first_image{
+    position: relative;
+}
+.first_image img{
+    position: absolute;
+    top: 60px;
+    width: 62%;
+}
+.second_image{
+    position: relative;
+}
+.second_image img{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 62%;
+}
+.player_img {
+    position: relative;
+}
+.player_img img {
+    position: relative;
+    top: -19px;
+    right: -94px;
+}
+.subtitle_points{
+    text-align: center;
+    color: #8E8E8E;
+    margin-right: -64px; 
+    font-size: 0.875rem;
+}
+.points_title ol li{
+    font-size: 0.875rem;
+}
+
+.points_title ol li,.about-signup{
+    color: #8E8E8E;
+}
+.points_title a{
+    text-decoration: none;
+}
+.make_p p
+{
+    color: #686868;
+}
+.cross_pic{
+    position: relative;
+}
+.make_card .card{
+    margin: 0 7rem 0 0;
+}
+@media (max-width:991px){
+    .first_image img {
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+    .second_image img {
+        position: relative;
+        top: 1rem;
+        left: 0px;
+        width: 100%;
+    }
+    .make_card .card {
+        margin: 5rem 6rem 0 0;
+    }
+    .points_title ol, ul {
+        padding-left: 1rem;
+        margin-right: 0px;
+    }
+    .subtitle_points {
+        text-align: center;
+        color: #8E8E8E;
+        margin-right: 0px;
+    }
+    .points_title h3 {
+        color: #003969;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-right: 0rem;
+    }
+    .player_img img {
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+.make_div img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.make_card {
+    padding-top: 25px;
+}
+}

@@ -1,0 +1,118 @@
+.page_title {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.gi_head{
+    color: #003969;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.back_btn button{
+    background-color: #003969;
+    color: #ffffff;
+    border-radius: 5px !important;
+    font-size: 1rem;
+}
+.group_list .card {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100% !important;
+    box-shadow: 0px 3px 6px #b6d0e6;
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
+    flex-direction: row; 
+}
+.group_list .card .card-body {
+    padding-top: 1rem !important;
+}
+.text_name {
+    display: grid;
+    justify-items: start;
+    align-content: center;
+    padding-top: 10px;
+}
+.text_name h5{
+    color: #616161;
+    font-size: 1.125rem;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.text_name p{
+    color: #ABABAB;
+    font-size: 1rem; 
+}
+.image_div img{
+    width: 70px;
+    height: 70px;
+}
+.group_btn .btn_accept{
+    background-color: #18C15E;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+.group_btn .btn_decline{
+    background-color: #ED3037;
+    color: #ffffff;
+    border-radius: 6px;
+}
+.group_btn{
+    padding-left: 30px;
+}
+@media (max-width: 576px) {
+    .gi_head{
+        color: #003969;
+        font-size: 1rem !important;
+        font-weight: 600;
+    }
+    .back_btn button{
+        background-color: #003969;
+        color: #ffffff;
+        border-radius: 5px !important;
+        font-size: 1rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .text_name p {
+        color: #ABABAB;
+        font-size: 1rem;
+        padding-left: 9px;
+    }
+    .group_btn .d-md-block {
+        display: flex !important;
+        gap: 5px;
+    }
+    .group_btn{
+        padding-left: 1px;
+    }
+  }
+
+ @media (min-width: 992px) {
+    .group_btn .d-md-block {
+        display: flex !important;
+        gap: 5px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .group_btn .d-md-block {
+        display: grid !important;
+        gap: 5px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .text_name p {
+        color: #ABABAB;
+        font-size: 1rem;
+        padding-left: 12px;
+    }
+    .group_btn .d-md-block {
+        display: flex !important;
+        gap: 5px;
+    }
+    .group_btn{
+        padding-left: 50px;
+    }
+ }
+  
+ 

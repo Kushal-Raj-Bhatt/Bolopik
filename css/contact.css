@@ -1,0 +1,45 @@
+.contactUs .page-heading {
+    font-size: 2.625rem;
+}
+
+.contactUs .card {
+    border: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0039693B;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 15px;
+}
+
+.contactUs .page-heading-2 {
+    font-size: 2.875rem;
+    color: #003969;
+}
+
+.img-section img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.contact-form label {
+    color: #003969;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact-form .form-control {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #8E8E8E29;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    opacity: 1;
+}
+.contact-form .btn-primary{
+    background-color: #003969;
+    border-color: #003969;
+}
+.contact-img img{
+    width: 100%;
+}

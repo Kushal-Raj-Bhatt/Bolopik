@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fantasy Teams</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="css/admin/feather.css">
+    <link rel="stylesheet" href="css/admin/fantasyteam.css">
+    <link rel="stylesheet" href="css/admin/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="css/admin/themify-icons.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/admin/style.css">
+    <link rel="stylesheet" href="css/admin/admin.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 fixed-top d-flex flex-row" style="background-color: #fff;">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.png" class="mr-2"
+                        alt="logo" /><span class="back_logo_text">is a
+                        platform completely for free</span></a>
+                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                <button class="navbar-toggler navbar-toggler align-self-center d-none d-sm-block d-md-block d-lg-none"
+                    type="button" data-toggle="minimize">
+                    <span class="icon-menu"><i class="fa fa-bars"></i></span>
+                </button>
+
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#"
+                            data-toggle="dropdown">
+                            <span class="">EN &nbsp;<img src="images/down_arrow.png" alt="" width="15px"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list bg-color"
+                            aria-labelledby="notificationDropdown">
+                            <ul class="lang-list">
+                                <li>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                    <a class="dropdown-item preview-item" href="">English</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-profile dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                            <img src="images/user.png" alt="profile" />
+                        </a>
+                        <div class="welcome_user dropdown-toggle d-none d-lg-block" data-toggle="dropdown"
+                            id="profileDropdown">
+                            <p class="welxome_text">Welcome</p>
+                            <p class="admin_text">Administrator <span class="user-count">0</span></p>
+                        </div>
+                        <img src="images/down_arrow.png" alt="" width="15px"
+                            class="arrow_profile dropdown-toggle d-none d-lg-block" data-toggle="dropdown"
+                            id="profileDropdown">
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown bg-color profile-list"
+                            aria-labelledby="profileDropdown">
+                            <ul class="lang-list">
+                                <li>
+                                    <a class="dropdown-item preview-item" href="">Manage</a>
+                                    <a class="dropdown-item preview-item" href="">Fantasy Team</a>
+                                    <a class="dropdown-item preview-item" href="">Profile</a>
+                                    <a class="dropdown-item preview-item" href="">Home</a>
+                                    <a class="dropdown-item preview-item" href="">My Predictions</a>
+                                    <a class="dropdown-item preview-item" href="">My Groups</a>
+                                    <a class="dropdown-item preview-item" href="">News</a>
+                                    <a class="dropdown-item preview-item" href="">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item nav-settings d-none d-lg-flex">
+            <a class="nav-link" href="#">
+              <i class="icon-ellipsis"></i>
+            </a>
+          </li> -->
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                    data-toggle="offcanvas">
+                    <span class="icon-menu"><i class="fa fa-bars"></i></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial -->
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item gap_up">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/home2.png" class="dash-side-img">
+                            <span class="menu-title">Home</span>
+                        </a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/pre2.png" class="dash-side-img">
+                            <span class="menu-title">My Predictions</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/grp2.png" class="dash-side-img">
+                            <span class="menu-title">My Groups</span>
+                            <img src="images/next.svg" class="arrow_right">
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">
+                            <img src="./images/basketball-svgrepo-com.svg" class="dash-side-img">
+                            <span class="menu-title">Fantasy Teams</span>
+                            <img src="images/next.svg" class="arrow_right">
+                        </a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/book2.png" class="dash-side-img">
+                            <span class="menu-title">News</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/info2.png" class="dash-side-img">
+                            <span class="menu-title">How to Play</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="page_title">
+                        <div class="ft_title">
+                            <h4>Fantasy Teams</h4>
+                        </div>
+                        <div class="ft_btn">
+                            <button type="button" class="btn">Go to Dashboard</button>
+                        </div>
+                    </div>
+                    <div class="main_fantasy mt-4">
+                        <div class="fantasy_team">
+                            <div class="team_name">
+                              <p>Team Name</p>
+                              <h4>Spain Warriors</h4>
+                              <p>Stars</p>
+                              <h4>100</h4>
+                              <p>Stars</p>
+                              <h4>100</h4>
+                            </div>
+                            <div class="fantasy_edit_d">
+                              <div class="game_time blue  text-center">
+                                  <button class="btn btn-primary">Edit</button>
+                              </div>
+                              <div class="game_time text-center">
+                                  <button class="btn btn-primary">Delete</button>
+                              </div>
+                            </div>
+                         </div>
+                       <div class="fantasy_game">
+                          <!-- <div class="fantasy_save">
+                            <button class="btn btn-primary">Save Squad</button>
+                          </div> -->
+                            <div class="formation">
+                                <p>4-3-3 <span><img src="images/down-arrow.png" alt=""></span></p>
+                            </div>
+                           <div class="banch_player">
+                              <div class="align_banch_player">
+                                 <div class="player_row">
+                                    <img src="images/player-banch.png" alt="">
+                                 </div>
+                                 <div class="player_row">
+                                    <img src="images/player-banch.png" alt="">
+                                 </div>
+                                 <div class="player_row">
+                                    <img src="images/player-banch.png" alt="">
+                                 </div>
+                                 <div class="player_row">
+                                    <img src="images/player-banch.png" alt="">
+                                 </div>
+                                 <div class="player_row">
+                                    <img src="images/player-banch.png" alt="">
+                                 </div>
+                                 <div class="player_row">
+                                    <img src="images/player-banch.png" alt="">
+                                 </div>
+                                 <div class="player_row">
+                                    <img src="images/player-banch.png" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="golkepper_player">
+                                <div class="align_banch_player">
+                                    <div class="player_row">
+                                        <img src="images/player-gk.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="defender_player">
+                                <div class="align_banch_player">
+                                    <div class="player_row">
+                                        <img src="images/player-def.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                    <div class="player_row">
+                                        <img src="images/player-def.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                    <div class="player_row">
+                                        <img src="images/player-def.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                    <div class="player_row">
+                                        <img src="images/player-def.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mid_player">
+                                <div class="align_banch_player">
+                                    <div class="player_row">
+                                        <img src="images/player-mid.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                    <div class="player_row">
+                                        <img src="images/player-mid.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                    <div class="player_row">
+                                        <img src="images/player-mid.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fwd_player">
+                                <div class="align_banch_player">
+                                    <div class="player_row">
+                                        <img src="images/player-fwd.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                    <div class="player_row">
+                                        <img src="images/player-fwd.png" alt="">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Manish</div>
+                                    </div>
+                                    <div class="player_row">
+                                        <img src="images/player-fwd.png" alt="" data-toggle="modal" data-target="#exampleModal">
+                                        <div class="team_captain">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Captain
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="player_name">Pawan</div>
+                                        <!-- <p>FWD</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div> 
+                  <!-- Button trigger modal -->
+            </div>
+            <!-- main-panel ends -->
+             <!-- Modal -->
+             <div class="fantasy_team_popup">
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                        <h4>MIDFielder 1</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                           <div class="select_fielders active">
+                              <p>David Alaba Midfielder - <span><img src="images/star.svg">&nbsp;4</span></p>
+                           </div>
+                           <div class="select_fielders">
+                              <p>David Alaba Midfielder - <span><img src="images/star.svg">&nbsp;4</span></p>
+                           </div>
+                           <div class="select_fielders">
+                            <p>David Alaba Midfielder - <span><img src="images/star.svg">&nbsp;4</span></p>
+                         </div>
+                         <div class="select_fielders">
+                            <p>David Alaba Midfielder - <span><img src="images/star.svg">&nbsp;4</span></p>
+                         </div>
+                         <div class="select_fielders">
+                            <p>David Alaba Midfielder - <span><img src="images/star.svg">&nbsp;4</span></p>
+                         </div>
+                         <div class="select_fielders">
+                            <p>David Alaba Midfielder - <span><img src="images/star.svg">&nbsp;4</span></p>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+
+    <!-- plugins:js -->
+    <script src="js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/settings.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <!-- <script src="js/dashboard.js"></script> -->
+    <script src="js/Chart.roundedBarCharts.js"></script>
+    <!-- End custom js for this page-->
+    <!-- <script>
+        $(document).ready(function(){
+          $("#create_show").click(function(){
+            $("#mygroup").hide();
+          });
+          $("#create_show").click(function(){
+            $("#show_create").show();
+          });
+        });
+        </script> -->
+</body>
+
+</html>

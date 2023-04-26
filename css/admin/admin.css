@@ -1,0 +1,121 @@
+html {
+    font-size: 16px;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+p {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.dash-side-img {
+    width: 30px;
+    margin: 0px 20px 0px 0px;
+}
+
+#sidebar {
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+#sidebar ul li a:hover {
+    background-color: #003969;
+    border-radius: 5px;
+}
+
+#sidebar .nav:not(.sub-menu) {
+    margin: 0px;
+}
+
+#sidebar li a {
+    padding: 25px 40px;
+}
+
+.lang-list {
+    padding: 0px;
+    list-style: none;
+}
+
+.preview-list,
+.profile-list {
+    top: 60px !important;
+}
+
+.bg-color {
+    background-color: #003969;
+}
+
+.lang-list li a {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.navbar-brand {
+    font-size: 12px !important;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand-wrapper {
+    width: 425px;
+}
+
+.navbar .navbar-menu-wrapper {
+    width: calc(100% - 425px);
+}
+.top_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+.desh-card {
+    padding: 5px;
+    text-align: center;
+    background: #509FE8 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    color: white;
+    padding: 15px;
+    width: 100%;
+}
+
+.desh-card-1 {
+    background-color: #509FE8;
+}
+.desh-card-2{
+    background-color: #F4BFBD;
+}
+.desh-card-3{
+    background-color: #ACAEFB;
+}
+.desh-card-4{
+    background-color: #D7E5C7;
+}
+.desh-card-5{
+    background-color: #D199EE;
+}
+.dash-card-img{    
+    margin-bottom: 10px;
+}
+.desh-card img {
+    width: 50px;
+}
+.Predictions_box{
+    
+}
+.Predictions_box h2{
+    font-size: 1.75rem;
+    color: #003969;
+    font-weight: 600;
+}

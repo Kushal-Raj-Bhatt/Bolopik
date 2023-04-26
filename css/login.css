@@ -1,0 +1,103 @@
+
+.bgimg-1 .card {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    border: 0.5px solid #ADADAE;
+    border-radius: 10px;
+}
+.login-form .img-email{
+    width: 30.56px;
+    height: 20.67px;
+    position: absolute;
+    margin: 25px 20px;
+} 
+.login-form .img-user{
+    width: 22.38px;
+    height: 28.84px;
+    position: absolute;
+    margin: 20px 20px;
+}
+.login-form .img-pass{
+    width: 23.31px;
+    height: 33.58px;
+    position: absolute;
+    margin: 13px 20px;
+}
+.login-form .form-control{
+    height: 60px;
+    background-color: #EFF4FE;
+    padding-left: 70px;
+    border-color: #eff4fe;
+}
+.login-form .login-header{
+    font-size: 1.75rem;
+    color: #003969;
+    font-weight: bold;
+}
+.login-form input::placeholder {
+    font-weight: bold;
+    color: #003969;
+  }
+  .login-form .btn-primary {
+    background-color: #003969;
+    border-color: #003969;
+    padding: 9px;
+}
+.btn-google {
+    background: #EA4335;
+    border: #EA4335;
+}
+.login-form a {
+    text-decoration: none;
+}
+.login-form .remebmerme{
+    text-align: right;
+}
+.login-box{
+    margin: auto;
+}
+.login-with {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    background-color: #fff;
+    margin: 0.5rem 0;
+}
+.login-with::after{
+    content: '';
+    width: 95%;
+    border-bottom: solid 1px #ADADAE;
+    position: absolute;
+    left: 15px;
+    top: 56%;
+    z-index: 1;
+}
+.login-with-text{
+    background-color: #fff;
+    width: auto;
+    display: inline-block;
+    z-index: 3;
+    padding: 0 20px 0 20px;
+    color: #727272;
+    position: relative;
+    margin: 0;
+    font-size: 1.125rem;
+}
+.social-btn  .btn{
+    height: 50px;
+    font-size: 1.1rem;
+    padding: 13px;
+}
+.social-btn  .btn .fa{
+    margin-right: 15px;
+}
+.createAccount{
+    font-weight: 600;
+    color: #727272;
+    font-size: 0.85rem;
+}
+.btn-fb{
+    background-color: #385C8E !important;
+}
